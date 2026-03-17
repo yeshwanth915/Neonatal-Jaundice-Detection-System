@@ -1,0 +1,46 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js (Mobile App)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo
+.expo/
+mobile_app/.expo/
+.expo-shared/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large datasets (optional - keep small test images)
+# Dataset/
+
+# Temporary files
+*.tmp
+temp_*
+
+# Logs
+*.log
+
+# Environment files (keep .env template)
+.env.local
+.env.production
+

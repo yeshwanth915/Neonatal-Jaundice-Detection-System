@@ -1,0 +1,45 @@
+{
+  "model_type": "high_epoch_ensemble",
+  "training_date": "2026-03-11T09:27:51.664991",
+  "epochs": 1000,
+  "n_features": 84,
+  "n_samples": 1520,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "cv_auc_mean": 0.981932320763501,
+  "cv_auc_std": 0.00754789547348913,
+  "test_accuracy": 0.9605263157894737,
+  "test_auc": 0.9906249999999999,
+  "training_time_seconds": 11.943102,
+  "model_components": {
+    "random_forest": {
+      "n_estimators": 1000,
+      "max_depth": 20
+    },
+    "xgboost": {
+      "n_estimators": 1000,
+      "max_depth": 8,
+      "learning_rate": 0.03
+    },
+    "gradient_boosting": {
+      "n_estimators": 1000,
+      "max_depth": 8,
+      "learning_rate": 0.03
+    },
+    "svm": {
+      "C": 10.0,
+      "kernel": "rbf"
+    }
+  },
+  "ensemble_weights": [
+    2,
+    3,
+    2,
+    1
+  ],
+  "dataset_info": {
+    "normal_samples": 1120,
+    "jaundice_samples": 400,
+    "feature_extraction": "comprehensive_color_texture_histogram"
+  }
+}

@@ -1,0 +1,25 @@
+filename,folder,true_label,pred_label,jaundice_probability,true_name,pred_name
+normal (1012).jpg,normal,0,1,0.6248555301206816,Normal,Jaundice
+normal (1013).jpg,normal,0,1,0.6097784497115488,Normal,Jaundice
+normal (1061).jpg,normal,0,1,0.5285646374595536,Normal,Jaundice
+normal (1070).jpg,normal,0,1,0.34180154587329303,Normal,Jaundice
+normal (570).jpg,normal,0,1,0.4067355547950065,Normal,Jaundice
+normal (654).jpg,normal,0,1,0.46613856747087823,Normal,Jaundice
+normal (683).jpg,normal,0,1,0.48426905290015354,Normal,Jaundice
+normal (749).jpg,normal,0,1,0.3546553917359387,Normal,Jaundice
+normal (777).jpg,normal,0,1,0.40720449106805867,Normal,Jaundice
+normal (785).jpg,normal,0,1,0.4635941194574853,Normal,Jaundice
+normal (867).jpg,normal,0,1,0.31964598155433765,Normal,Jaundice
+normal (885).jpg,normal,0,1,0.47527944538914835,Normal,Jaundice
+normal (968).jpg,normal,0,1,0.3068081761044228,Normal,Jaundice
+normal (991).jpg,normal,0,1,0.33320215075634485,Normal,Jaundice
+jaundice (113).jpg,jaundice,1,0,0.1452779927118641,Jaundice,Normal
+jaundice (154).jpg,jaundice,1,0,0.15978723462067343,Jaundice,Normal
+jaundice (167).jpg,jaundice,1,0,0.19174418370451607,Jaundice,Normal
+jaundice (174).jpg,jaundice,1,0,0.14697855082081127,Jaundice,Normal
+jaundice (197).jpg,jaundice,1,0,0.045119389204859806,Jaundice,Normal
+jaundice (2).jpg,jaundice,1,0,0.035014150214896074,Jaundice,Normal
+jaundice (23).jpg,jaundice,1,0,0.08588275941458459,Jaundice,Normal
+jaundice (76).jpg,jaundice,1,0,0.18195828019820395,Jaundice,Normal
+jaundice (84).jpg,jaundice,1,0,0.04878473885491047,Jaundice,Normal
+jaundice (97).jpg,jaundice,1,0,0.2928964648979138,Jaundice,Normal
